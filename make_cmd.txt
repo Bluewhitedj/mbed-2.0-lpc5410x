@@ -1,0 +1,252 @@
+D:\App mbed\mbed-master - Copy>python workspace_tools\make.py
+[WARNING] Using default settings. Define your settings in the file "workspace_to
+ols/private_settings.py" or in "./mbed_settings.py"
+
+
+[ERROR] You have to specify one of the following tests:
+[  0] MBED_A1: Basic
+[  1] MBED_A2: Semihost file system
+[  2] MBED_A3: C++ STL
+[  3] MBED_A4: I2C TMP102
+[  4] MBED_A5: DigitalIn DigitalOut
+[  5] MBED_A6: DigitalInOut
+[  6] MBED_A7: InterruptIn
+[  7] MBED_A8: Analog
+[  8] MBED_A9: Serial Echo at 115200
+[  9] MBED_A10: PortOut PortIn
+[ 10] MBED_A11: PortInOut
+[ 11] MBED_A12: SD File System
+[ 12] MBED_A13: I2C MMA7660 accelerometer
+[ 13] MBED_A14: I2C Master
+[ 14] MBED_A15: I2C Slave
+[ 15] MBED_A16: SPI Master
+[ 16] MBED_A17: SPI Slave
+[ 17] MBED_A18: Interrupt vector relocation
+[ 18] MBED_A19: I2C EEPROM read/write test
+[ 19] MBED_A20: I2C master/slave test
+[ 20] MBED_A21: Call function before main (mbed_main)
+[ 21] MBED_A22: SPIFI for LPC4088 (test 1)
+[ 22] MBED_A23: SPIFI for LPC4088 (test 2)
+[ 23] MBED_A24: Serial echo with RTS/CTS flow control
+[ 24] MBED_A25: I2C EEPROM line read/write test
+[ 25] MBED_A26: AnalogIn potentiometer test
+[ 26] MBED_A27: CAN loopback test
+[ 27] MBED_BLINKY: Blinky
+[ 28] MBED_BUS: Blinky BUS
+[ 29] MBED_BUSOUT: BusOut
+[ 30] BENCHMARK_1: Size (c environment)
+[ 31] BENCHMARK_2: Size (float math)
+[ 32] BENCHMARK_3: Size (printf)
+[ 33] BENCHMARK_4: Size (mbed libs)
+[ 34] BENCHMARK_5: Size (all)
+[ 35] PERF_1: SD Stdio R/W Speed
+[ 36] PERF_2: SD FileHandle R/W Speed
+[ 37] PERF_3: SD FatFS R/W Speed
+[ 38] MBED_1: I2C SRF08
+[ 39] MBED_2: stdio
+[ 40] MBED_3: PortOut
+[ 41] MBED_4: Sleep
+[ 42] MBED_5: PWM
+[ 43] MBED_6: SW Reset
+[ 44] MBED_7: stdio  benchmark
+[ 45] MBED_8: SPI
+[ 46] MBED_9: Sleep Timeout
+[ 47] MBED_10: Hello World
+[ 48] MBED_11: Ticker Int
+[ 49] MBED_12: C++
+[ 50] MBED_13: Heap & Stack
+[ 51] MBED_14: Serial Interrupt
+[ 52] MBED_15: RPC
+[ 53] MBED_16: RTC
+[ 54] MBED_17: Serial Interrupt 2
+[ 55] MBED_18: Local FS Directory
+[ 56] MBED_19: SD FS Directory
+[ 57] MBED_20: InterruptIn 2
+[ 58] MBED_21: freopen Stream
+[ 59] MBED_22: Semihost
+[ 60] MBED_23: Ticker Int us
+[ 61] MBED_24: Timeout Int us
+[ 62] MBED_25: Time us
+[ 63] MBED_26: Integer constant division
+[ 64] MBED_27: SPI ADXL345
+[ 65] MBED_28: Interrupt chaining (InterruptManager)
+[ 66] MBED_29: CAN network test
+[ 67] MBED_30: CAN network test using interrupts
+[ 68] MBED_31: PWM LED test
+[ 69] MBED_32: Pin toggling
+[ 70] MBED_33: C string operations
+[ 71] MBED_34: Ticker Two callbacks
+[ 72] MBED_35: SPI C12832 display
+[ 73] MBED_36: WFI correct behavior
+[ 74] MBED_37: Serial NC RX
+[ 75] MBED_38: Serial NC TX
+[ 76] CMSIS_RTOS_1: Basic
+[ 77] CMSIS_RTOS_2: Mutex
+[ 78] CMSIS_RTOS_3: Semaphore
+[ 79] CMSIS_RTOS_4: Signals
+[ 80] CMSIS_RTOS_5: Queue
+[ 81] CMSIS_RTOS_6: Mail
+[ 82] CMSIS_RTOS_7: Timer
+[ 83] CMSIS_RTOS_8: ISR
+[ 84] RTOS_1: Basic thread
+[ 85] RTOS_2: Mutex resource lock
+[ 86] RTOS_3: Semaphore resource lock
+[ 87] RTOS_4: Signals messaging
+[ 88] RTOS_5: Queue messaging
+[ 89] RTOS_6: Mail messaging
+[ 90] RTOS_7: Timer
+[ 91] RTOS_8: ISR (Queue)
+[ 92] RTOS_9: SD File write-read
+[ 93] NET_1: TCP client hello world
+[ 94] NET_2: NIST Internet Time Service
+[ 95] NET_3: TCP echo server
+[ 96] NET_4: TCP echo client
+[ 97] NET_5: UDP echo server
+[ 98] NET_6: UDP echo client
+[ 99] NET_7: HTTP client hello world
+[100] NET_8: NTP client
+[101] NET_9: Multicast Send
+[102] NET_10: Multicast Receive
+[103] NET_11: Broadcast Send
+[104] NET_12: Broadcast Receive
+[105] NET_13: TCP client echo loop
+[106] NET_14: UDP PHY/Data link layer
+[107] UB_1: u-blox USB modem: HTTP client
+[108] UB_2: u-blox USB modem: SMS test
+[109] USB_1: Mouse
+[110] USB_2: Keyboard
+[111] USB_3: Mouse_Keyboard
+[112] USB_4: Serial Port
+[113] USB_5: Generic HID
+[114] USB_6: MIDI
+[115] USB_7: AUDIO
+[116] CMSIS_DSP_1: FIR
+[117] DSP_1: FIR
+[118] KL25Z_1: LPTMR
+[119] KL25Z_2: PIT
+[120] KL25Z_3: TSI Touch Sensor
+[121] KL25Z_4: RTC
+[122] KL25Z_5: MMA8451Q accelerometer
+[123] EXAMPLE_1: /dev/null
+[124] EXAMPLE_2: FS + RTOS
+[125] UT_1: Basic
+[126] UT_2: Semihost file system
+[127] UT_3: General tests
+[128] UT_BUSIO: BusIn BusOut
+[129] UT_I2C_EEPROM_ASYNCH: I2C Asynch eeprom
+[130] UT_SERIAL_ASYNCH: Asynch serial test (req 2 serial peripherals)
+[131] UT_SPI_ASYNCH: Asynch spi test
+[132] UT_LP_TICKER: Low power ticker test
+[133] DTCT_1: Simple detect test
+
+
+Usage: make.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -m MCU, --mcu=MCU     build for the given MCU (ARCH_BLE, ARCH_BLE_BOOT,
+                        ARCH_BLE_OTA, ARCH_GPRS, ARCH_LINK, ARCH_LINK_BOOT,
+                        ARCH_LINK_OTA, ARCH_MAX, ARCH_PRO, ARM_MPS2,
+                        ARM_MPS2_M0, ARM_MPS2_M0P, ARM_MPS2_M1, ARM_MPS2_M3,
+                        ARM_MPS2_M4, ARM_MPS2_M7, DELTA_DFCM_NNN40,
+                        DELTA_DFCM_NNN40_BOOT, DELTA_DFCM_NNN40_OTA,
+                        DISCO_F051R8, DISCO_F100RB, DISCO_F303VC,
+                        DISCO_F334C8, DISCO_F401VC, DISCO_F407VG,
+                        DISCO_F429ZI, DISCO_F746NG, DISCO_L053C8,
+                        DISCO_L476VG, EFM32GG_STK3700, EFM32HG_STK3400,
+                        EFM32LG_STK3600, EFM32WG_STK3800, EFM32ZG_STK3200,
+                        HRM1017, HRM1017_BOOT, HRM1017_OTA, K20D50M, K22F,
+                        K64F, KL05Z, KL25Z, KL26Z, KL43Z, KL46Z, LPC1114,
+                        LPC11C24, LPC11U24, LPC11U24_301, LPC11U34_421,
+                        LPC11U35_401, LPC11U35_501, LPC11U35_501_IBDAP,
+                        LPC11U35_Y5_MBUG, LPC11U37H_401, LPC11U37_501,
+                        LPC11U68, LPC1347, LPC1549, LPC1768, LPC2368, LPC2460,
+                        LPC4088, LPC4088_DM, LPC4330_M0, LPC4330_M4, LPC4337,
+                        LPC810, LPC812, LPC824, LPCCAPPUCCINO, MAX32600MBED,
+                        MAXWSNENV, MICRONFCBOARD, MOTE_L152RC,
+                        MTS_DRAGONFLY_F411RE, MTS_GAMBIT, MTS_MDOT_F405RG,
+                        MTS_MDOT_F411RE, NRF51822, NRF51822_BOOT,
+                        NRF51822_OTA, NRF51822_Y5_MBUG, NRF51_DK,
+                        NRF51_DK_BOOT, NRF51_DK_OTA, NRF51_DONGLE,
+                        NRF51_DONGLE_BOOT, NRF51_DONGLE_OTA, NRF51_MICROBIT,
+                        NRF51_MICROBIT_B, NUCLEO_F030R8, NUCLEO_F070RB,
+                        NUCLEO_F072RB, NUCLEO_F091RC, NUCLEO_F103RB,
+                        NUCLEO_F302R8, NUCLEO_F303RE, NUCLEO_F334R8,
+                        NUCLEO_F401RE, NUCLEO_F411RE, NUCLEO_F446RE,
+                        NUCLEO_L053R8, NUCLEO_L073RZ, NUCLEO_L152RE,
+                        NUCLEO_L476RG, NZ32SC151, OC_MBUINO, RBLAB_BLENANO,
+                        RBLAB_BLENANO_BOOT, RBLAB_BLENANO_OTA, RBLAB_NRF51822,
+                        RBLAB_NRF51822_BOOT, RBLAB_NRF51822_OTA, RZ_A1H,
+                        SAMD21J18A, SAMR21G18A, SEEED_TINY_BLE,
+                        SEEED_TINY_BLE_BOOT, SEEED_TINY_BLE_OTA, SSCI824,
+                        STM32F3XX, STM32F407, TEENSY3_1, UBLOX_C027,
+                        UBLOX_C029, WALLBOT_BLE, WALLBOT_BLE_BOOT,
+                        WALLBOT_BLE_OTA, WIZWIKI_W7500, XADOW_M0,
+                        XBED_LPC1768)
+  -t TOOLCHAIN, --tool=TOOLCHAIN
+                        build using the given TOOLCHAIN (ARM, GCC_ARM, GCC_CR,
+                        GCC_CS, GCC_CW_EWL, GCC_CW_NEWLIB, IAR, uARM)
+  -c, --clean           clean the build directory
+  -o OPTIONS, --options=OPTIONS
+                        Add a build option ("save-asm": save the asm generated
+                        by the compiler, "debug-info": generate debugging
+                        information, "analyze": run Goanna static code
+                        analyzer")
+  -p PROGRAM            The index of the desired test program: [0-133]
+  -n PROGRAM_NAME       The name of the desired test program
+  -j JOBS, --jobs=JOBS  Number of concurrent jobs (default 1). Use 0 for auto
+                        based on host machine's number of CPUs
+  -v, --verbose         Verbose diagnostic output
+  --silent              Silent diagnostic output (no copy, compile
+                        notification)
+  -D MACROS             Add a macro definition
+  --automated           Automated test
+  --host=HOST_TEST      Host test
+  --extra=EXTRA         Extra files
+  --peripherals=PERIPHERALS
+                        Required peripherals
+  --dep=DEPENDENCIES    Dependencies
+  --source=SOURCE_DIR   The source (input) directory
+  --duration=DURATION   Duration of the test
+  --build=BUILD_DIR     The build (output) directory
+  -d DISK, --disk=DISK  The mbed disk
+  -s SERIAL, --serial=SERIAL
+                        The mbed serial port
+  -b BAUD, --baud=BAUD  The mbed serial baud rate
+  -L, --list-tests      List available tests in order and exit
+  --rtos                Link with RTOS library
+  --eth                 Link with Ethernet library
+  --usb_host            Link with USB Host library
+  --usb                 Link with USB Device library
+  --dsp                 Link with DSP library
+  --fat                 Link with FS ad SD card file system library
+  --ublox               Link with U-Blox library
+  --testlib             Link with mbed test library
+  -l LINKER_SCRIPT, --linker=LINKER_SCRIPT
+                        use the specified linker script
+
+D:\App mbed\mbed-master - Copy>python workspace_tools\make.py -m LPC1549 -t GCC_
+ARM -d D:\ -s COM34 -p 27
+[WARNING] Using default settings. Define your settings in the file "workspace_to
+ols/private_settings.py" or in "./mbed_settings.py"
+Building project BLINKY (LPC1549, GCC_ARM)
+Compile: main.cpp
+Compile: test_env.cpp
+Link: blinky
+Elf2Bin: blinky
+Image: D:\App mbed\mbed-master - Copy\build\test\LPC1549\GCC_ARM\MBED_BLINKY\bli
+nky.bin
+[ERROR] No module named serial
+
+D:\App mbed\mbed-master - Copy>python workspace_tools\make.py -m LPC1549 -t IAR
+-d D:\ -s COM34 -p 27
+[WARNING] Using default settings. Define your settings in the file "workspace_to
+ols/private_settings.py" or in "./mbed_settings.py"
+Building project BLINKY (LPC1549, IAR)
+Compile: main.cpp
+Compile: test_env.cpp
+Link: blinky
+Elf2Bin: blinky
+Image: D:\App mbed\mbed-master - Copy\build\test\LPC1549\IAR\MBED_BLINKY\blinky.
+bin
+[ERROR] No module named serial

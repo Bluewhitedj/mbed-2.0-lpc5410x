@@ -1,0 +1,36 @@
+---- DEVICE_RTC Matches (35 in 35 files) ----
+Device.h (mbed\targets\hal\target_nxp\target_lpc11u6x):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_appnearme_micronfcboard):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_arch_gprs):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpc11u24_301):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpc11u24_401):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpc11u34_421):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpc11u35_401):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpc11u37h_401):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_lpccappuccino):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_mcu_lpc11u35_501\target_lpc11u35_501):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_mcu_lpc11u35_501\target_lpc11u35_501_ibdap):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_mcu_lpc11u35_501\target_lpc11u35_y5_mbug):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_mcu_lpc11u35_501\target_xadow_m0):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11uxx\target_oc_mbuino):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11xx_11cxx\target_lpc11cxx):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc11xx_11cxx\target_lpc11xx):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc13xx):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc15xx):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc176x\target_arch_pro):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc176x\target_mbed_lpc1768):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc176x\target_ublox_c027):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc176x\target_xbed_lpc1768):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc23xx):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc2460):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc408x):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc43xx\target_lpc4330):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc43xx\target_lpc4337):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc5410x):#define DEVICE_RTC              1
+Device.h (mbed\targets\hal\target_nxp\target_lpc81x):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc82x\target_lpc824):#define DEVICE_RTC              0
+Device.h (mbed\targets\hal\target_nxp\target_lpc82x\target_ssci824):#define DEVICE_RTC              0
+Rtc_api.c (mbed\targets\hal\target_nxp\target_lpc11u6x):#if DEVICE_RTC
+Rtc_api.c (mbed\targets\hal\target_nxp\target_lpc15xx):#if DEVICE_RTC
+Rtc_api.h (mbed\hal):#if DEVICE_RTC
+Rtc_time.c (mbed\common):#if DEVICE_RTC
